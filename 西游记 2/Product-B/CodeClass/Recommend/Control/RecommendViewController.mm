@@ -131,7 +131,7 @@
     if (section == 0) {
         return nextStationArray.count;
     }else if (section == 1){
-        return discountArray.count + discountSubjectArray.count - 1;
+        return discountArray.count + discountSubjectArray.count;
     }
     return cellModelArray.count;
 }
